@@ -1,6 +1,10 @@
 *~
 
 searxng-docker.service
-#caddy
-#srv
+caddy/config/*
+caddy/data/*
+srv
+.env
+valkey/data/dump.rdb
+searxng/settings.yml
 searxng/uwsgi.ini
